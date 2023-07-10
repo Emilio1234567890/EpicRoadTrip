@@ -1,0 +1,25 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest tests --forceExit",
+    "start": "nodemon server.js"
+  },
+  "author": "Maxime Saidi",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^5.0.7",
+    "axios": "^1.3.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "supertest": "^6.3.3"
+  }
+}
